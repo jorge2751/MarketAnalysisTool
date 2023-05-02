@@ -12,6 +12,6 @@ router.get('/city/:city_id', resultController.getResultsByCity);
 router.get('/:id', resultController.getResultById);
 
 // POST - CREATE RESULT
-router.post('/', resultController.createResult);
+router.post('/search', resultController.createResult);
 
 module.exports = router;
